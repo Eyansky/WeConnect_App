@@ -15,14 +15,17 @@ body {
   }
 
   .form1 {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     height: 80%;
     margin: 0 auto;
     position: relative;
   }
  
-
+  .rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ }
 
 #footer{
     text-align: center;
