@@ -21,6 +21,13 @@ body {
     margin: 0 auto;
     position: relative;
   }
+
+  .search {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
  
   .rating > span:hover:before {
     content: "\2605";
