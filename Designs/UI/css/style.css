@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    background: rgb(98, 99, 98);
+    background: #EEEEEE;
   }
 
   #align-left{
@@ -17,12 +17,14 @@ body {
   .form1 {
     max-width: 400px;
     width: 100%;
+    height: 80%;
     margin: 0 auto;
     position: relative;
   }
+ 
 
 
 #footer{
     text-align: center;
-    background-color: #FFFFFF;
+   
 }
