@@ -13,8 +13,8 @@
             <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
                     <h5 class="my-0 mr-md-auto font-weight-normal">WeConnect</h5>
                     <nav class="my-2 my-md-0 mr-md-3">
-                      <a class="p-2 text-dark" href="#">Register</a>
-                      <a class="p-2 text-dark" href="#">Login</a>
+                      <a class="p-2 text-dark" href="register.html">Register</a>
+                      <a class="p-2 text-dark" href="login.html">Login</a>
                     
                     </nav>
                   </div>
@@ -26,7 +26,7 @@
                 <div class="mb-3">
                   <label for="username">Username or Email</label>
                   <div class="input-group">
-                <input type="text" class="form-control" id="username" placeholder="Username/Email" required>
+                <input type="text" class="form-control" id="username" placeholder="Username / Email" required>
                   </div>
                 </div>
     
@@ -34,9 +34,16 @@
                   <label for="password">Password</label>
                   <input type="password" class="form-control" id="password" placeholder="password" required>
                 </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
                 <hr class="mb-4">
                 
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit </button> <br>
+               <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="location.href = 'Dashboard.html';">Submit</button>
+                <br>
               </form>
         </div>
 
