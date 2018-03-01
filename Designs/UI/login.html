@@ -42,7 +42,7 @@
                   </div>
                 <hr class="mb-4">
                 
-               <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="location.href = 'Dashboard.html';">Submit</button>
+               <h2><a href="Dashboard.html">Submit</a></h2>
                 <br>
               </form>
         </div>
@@ -52,5 +52,12 @@
         </div>
     </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    $('#dash').on('click', function(event) { 
+    event.preventDefault();
+    window.location = "Dashboard.html"
+    });
+    </script>
+
 </body>
 </html>
